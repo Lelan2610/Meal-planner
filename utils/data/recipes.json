@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Salad ức gà",
+        "ingredients": ["ức gà", "rau xà lách", "cà chua", "dầu ô liu"],
+        "instructions": "Luộc ức gà, thái lát, trộn với rau và dầu ô liu.",
+        "difficulty": "đơn giản",
+        "moods": ["bình thường", "căng thẳng"]
+    },
+    {
+        "name": "Cơm tấm sườn bì chả",
+        "ingredients": ["cơm", "sườn", "bì", "chả", "nước mắm"],
+        "instructions": "Nướng sườn, hấp chả, trộn bì, dọn với cơm.",
+        "difficulty": "cầu kỳ",
+        "moods": ["vui", "bình thường"]
+    }
+]
