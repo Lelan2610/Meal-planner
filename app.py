@@ -1,49 +1,40 @@
 import streamlit as st
-from utils.recipe_generator import get_daily_meal_plan
-from utils.nutrition import calculate_tdee
 import json
 
-# Load dữ liệu công thức
+# --- Load công thức ---
 with open("data/recipes.json", "r", encoding="utf-8") as f:
     recipes = json.load(f)
 
-st.title("🍽️ Trợ lý Thực đơn Cá nhân")
-st.markdown(
-    """
-    <div style='text-align: right'>
-        🔗 <a href="https://github.com/your-username/meal-planner-streamlit" target="_blank">Xem mã nguồn trên GitHub</a>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
+st.title("🥗 Trợ lý thiết kế thực đơn thông minh")
 
-# Nhập thông tin người dùng
-weight = st.number_input("Cân nặng (kg)", 30, 200)
-height = st.number_input("Chiều cao (cm)", 100, 220)
-age = st.number_input("Tuổi", 10, 100)
-gender = st.selectbox("Giới tính", ["male", "female"])
-goal = st.selectbox("Mục tiêu", ["Tăng cân", "Giảm cân", "Giữ cân"])
-mood = st.selectbox("Tâm trạng hôm nay", ["Bình thường", "Căng thẳng", "Vui", "Buồn"])
-preference = st.radio("Bạn muốn món ăn...", ["đơn giản", "cầu kỳ"])
-allergies = st.text_input("Bạn dị ứng với gì? (cách nhau bằng dấu phẩy)").split(",")
+# --- Mục tiêu sức khỏe ---
+goal = st.selectbox("Mục tiêu của bạn là gì?", ["Tất cả", "Tăng cân", "Giảm cân", "Giữ cân"])
+if goal != "Tất cả":
+    recipes = [r for r in recipes if goal.lower() in r.get("goal", [])]
 
-activity_level = 1.2  # Mặc định
+# --- Bộ lọc chế độ ăn ---
+diet_type = st.selectbox("Chọn chế độ ăn", ["Tất cả", "Ăn mặn", "Ăn chay", "Ăn thuần chay"])
+if diet_type != "Tất cả":
+    recipes = [r for r in recipes if r.get("type", "mặn") == diet_type.replace("Ăn ", "")]
 
-if st.button("Gợi ý thực đơn"):
-    tdee = calculate_tdee(weight, height, age, gender, activity_level)
-    user_input = {
-        "preference": preference,
-        "allergies": [a.strip().lower() for a in allergies if a.strip()],
-        "mood": mood.lower()
-    }
-    meals = get_daily_meal_plan(user_input, recipes)
+# --- Bộ lọc độ khó ---
+difficulty = st.radio("Bạn muốn món đơn giản hay cầu kỳ?", ["Tất cả", "đơn giản", "cầu kỳ"])
+if difficulty != "Tất cả":
+    recipes = [r for r in recipes if r.get("difficulty") == difficulty]
 
-    st.subheader(f"🌟 Gợi ý thực đơn (TDEE ~ {int(tdee)} kcal/ngày):")
-    if meals:
-        for meal in meals:
-            st.markdown(f"### {meal['name']}")
-            st.markdown(f"- **Nguyên liệu:** {', '.join(meal['ingredients'])}")
-            st.markdown(f"- **Cách làm:** {meal['instructions']}")
-            st.markdown(f"- **Độ khó:** {meal['difficulty']}")
-    else:
-        st.warning("Không tìm thấy công thức phù hợp. Hãy thử thay đổi tuỳ chọn!")
+# --- Tâm trạng ---
+mood = st.selectbox("Tâm trạng của bạn hôm nay là gì?", ["Tất cả", "vui", "buồn", "căng thẳng", "bình thường"])
+if mood != "Tất cả":
+    recipes = [r for r in recipes if mood in r.get("moods", [])]
+
+# --- Hiển thị kết quả ---
+if recipes:
+    st.subheader(f"🎉 Có {len(recipes)} món phù hợp với bạn:")
+    for r in recipes:
+        st.markdown(f"### 🍽️ {r['name']}")
+        st.markdown(f"**Nguyên liệu:** {', '.join(r['ingredients'])}")
+        st.markdown(f"**Cách làm:** {r['instructions']}")
+        st.markdown(f"**Độ khó:** {r['difficulty'].capitalize()} | **Chế độ ăn:** {r['type'].capitalize()} | **Mục tiêu:** {', '.join(r['goal'])}")
+        st.markdown("---")
+else:
+    st.warning("😥 Không tìm thấy món ăn phù hợp.")
