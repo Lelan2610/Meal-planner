@@ -38,5 +38,479 @@
         ],
         "goal": "giảm cân",
         "meal": "sáng"
+    },
+    {
+        "name": "Phở bò",
+        "ingredients": [
+            "Bánh phở", "Thịt bò", "Hành tây", "Gừng",
+            "Nước dùng bò", "Gia vị (đinh hương, quế)", "Chanh", "Ớt"
+        ],
+        "instructions": "Nấu nước dùng từ xương bò và gia vị, sau đó cho thịt bò, hành tây và gừng vào. Thả bánh phở vào bát, đổ nước dùng lên, thêm chanh, ớt vào cho đậm đà.",
+        "difficulty": "cầu kỳ",
+        "type": "mặn",
+        "moods": ["vui", "bình thường"],
+        "goal": "giữ cân",
+        "meal": "sáng"
+    },
+    {
+        "name": "Cơm chiên hải sản",
+        "ingredients": [
+            "Cơm nguội", "Tôm", "Mực", "Hành tây",
+            "Cà rốt", "Đậu Hà Lan", "Dầu ăn", "Nước tương", "Gia vị"
+        ],
+        "instructions": "Xào hành tây, cà rốt và đậu Hà Lan với dầu ăn. Thêm hải sản và cơm nguội, xào đều cho đến khi các nguyên liệu chín. Thêm gia vị và nước tương vào cho vừa ăn.",
+        "difficulty": "đơn giản",
+        "type": "mặn",
+        "moods": ["vui", "bình thường"],
+        "goal": "tăng cân",
+        "meal": "trưa"
+    },
+    {
+        "name": "Mì xào thập cẩm",
+        "ingredients": [
+            "Mì", "Tôm", "Cà rốt", "Mực",
+            "Hành tây", "Giá đỗ", "Nước tương", "Dầu ăn"
+        ],
+        "instructions": "Luộc mì và xào tôm, mực cùng rau củ với nước tương cho đến khi chín đều. Trộn mì vào chảo, đảo đều để thấm gia vị.",
+        "difficulty": "đơn giản",
+        "type": "mặn",
+        "moods": ["vui", "bình thường"],
+        "goal": "tăng cân",
+        "meal": "trưa"
+    },
+    {
+        "name": "Salad trái cây",
+        "ingredients": [
+            "Dưa hấu", "Nho", "Dứa", "Táo", "Chanh", "Mật ong"
+        ],
+        "instructions": "Cắt trái cây thành miếng nhỏ, trộn đều với một ít mật ong và nước cốt chanh.",
+        "difficulty": "đơn giản",
+        "type": "chay",
+        "moods": ["vui", "bình thường"],
+        "goal": "giảm cân",
+        "meal": "sáng"
+    },
+    {
+        "name": "Bánh mì kẹp thịt nướng",
+        "ingredients": [
+            "Bánh mì", "Thịt heo", "Dưa leo", "Xà lách",
+            "Nước tương", "Tỏi"
+        ],
+        "instructions": "Nướng thịt heo và kẹp vào bánh mì cùng với xà lách, dưa leo và gia vị. Thêm tỏi băm nhỏ cho thơm.",
+        "difficulty": "đơn giản",
+        "type": "mặn",
+        "moods": ["vui"],
+        "goal": "tăng cân",
+        "meal": "trưa"
+    },
+    {
+        "name": "Bánh xèo",
+        "ingredients": [
+            "Bột bánh xèo", "Tôm", "Thịt ba chỉ", "Giá đỗ",
+            "Hành lá", "Nước mắm"
+        ],
+        "instructions": "Trộn bột bánh xèo với nước, chiên vàng giòn. Đổ bột vào chảo, sau đó cho tôm, thịt, giá đỗ vào và chiên cho đến khi giòn.",
+        "difficulty": "cầu kỳ",
+        "type": "mặn",
+        "moods": ["vui", "bình thường"],
+        "goal": "tăng cân",
+        "meal": "tối"
+    },
+    {
+        "name": "Gà nướng mật ong",
+        "ingredients": [
+            "Gà", "Mật ong", "Tỏi", "Nước mắm", "Hạt tiêu"
+        ],
+        "instructions": "Ướp gà với mật ong, tỏi băm, nước mắm và tiêu. Nướng gà cho đến khi chín vàng.",
+        "difficulty": "cầu kỳ",
+        "type": "mặn",
+        "moods": ["vui"],
+        "goal": "tăng cân",
+        "meal": "trưa"
+    },
+    {
+        "name": "Canh chua cá",
+        "ingredients": [
+            "Cá", "Cà chua", "Dọc mùng", "Mẻ", "Tỏi", "Gia vị"
+        ],
+        "instructions": "Nấu nước với mẻ và các gia vị, cho cá và rau vào đun cho đến khi chín.",
+        "difficulty": "đơn giản",
+        "type": "mặn",
+        "moods": ["bình thường"],
+        "goal": "giữ cân",
+        "meal": "tối"
+    },
+    {
+        "name": "Súp bí đỏ",
+        "ingredients": [
+            "Bí đỏ", "Sữa tươi", "Hành tây", "Tỏi", "Muối", "Tiêu"
+        ],
+        "instructions": "Nấu bí đỏ và hành tây cho mềm, sau đó xay nhuyễn với sữa tươi.",
+        "difficulty": "đơn giản",
+        "type": "chay",
+        "moods": ["vui", "bình thường"],
+        "goal": "giảm cân",
+        "meal": "sáng"
+    },
+    {
+        "name": "Bún riêu cua",
+        "ingredients": [
+            "Cua đồng", "Bún", "Cà chua", "Đậu phụ", "Mắm tôm", "Hành khô", "Rau sống"
+        ],
+        "instructions": "Xay cua lấy nước, đun sôi cho đóng riêu. Xào cà chua, thêm mắm tôm rồi đổ vào nồi nước cua. Cho đậu phụ rán vào, ăn kèm bún và rau sống.",
+        "difficulty": "cầu kỳ",
+        "type": "mặn",
+        "moods": ["bình thường"],
+        "goal": "giữ cân",
+        "meal": "trưa"
+    },
+    {
+        "name": "Bún bò Huế",
+        "ingredients": [
+            "Bún", "Chân giò", "Thịt bò", "Mắm ruốc", "Sả", "Ớt", "Hành tím", "Chanh"
+        ],
+        "instructions": "Nấu nước dùng từ xương và thịt, cho sả và mắm ruốc vào. Luộc bún, chan nước dùng, thêm rau sống và chanh, ớt.",
+        "difficulty": "cầu kỳ",
+        "type": "mặn",
+        "moods": ["vui"],
+        "goal": "giữ cân",
+        "meal": "trưa"
+    },
+    {
+        "name": "Cháo gà",
+        "ingredients": [
+            "Gạo", "Thịt gà", "Gừng", "Hành lá", "Gia vị"
+        ],
+        "instructions": "Luộc gà lấy nước dùng. Xé nhỏ thịt gà. Nấu gạo với nước dùng thành cháo, cho thịt gà và hành lá vào.",
+        "difficulty": "đơn giản",
+        "type": "mặn",
+        "moods": ["bệnh", "bình thường"],
+        "goal": "giữ cân",
+        "meal": "sáng"
+    },
+    {
+        "name": "Cà ri gà",
+        "ingredients": [
+            "Thịt gà", "Khoai tây", "Cà rốt", "Sữa dừa", "Bột cà ri", "Hành tây", "Bánh mì"
+        ],
+        "instructions": "Xào hành tây với cà ri, cho gà vào đảo. Thêm sữa dừa, khoai, cà rốt đun đến khi mềm. Ăn kèm bánh mì.",
+        "difficulty": "cầu kỳ",
+        "type": "mặn",
+        "moods": ["vui"],
+        "goal": "tăng cân",
+        "meal": "tối"
+    },
+    {
+        "name": "Gỏi cuốn",
+        "ingredients": [
+            "Bánh tráng", "Tôm", "Thịt luộc", "Bún", "Rau sống", "Nước chấm"
+        ],
+        "instructions": "Cuốn tôm, thịt, bún và rau vào bánh tráng. Chấm với nước mắm chua ngọt hoặc tương đậu.",
+        "difficulty": "đơn giản",
+        "type": "mặn",
+        "moods": ["vui", "bình thường"],
+        "goal": "giảm cân",
+        "meal": "tối"
+    },
+    {
+        "name": "Bánh cuốn",
+        "ingredients": [
+            "Bột bánh cuốn", "Thịt băm", "Mộc nhĩ", "Hành phi", "Nước mắm"
+        ],
+        "instructions": "Hấp bánh từ bột, gói nhân thịt băm xào với mộc nhĩ. Dùng kèm nước mắm và hành phi.",
+        "difficulty": "cầu kỳ",
+        "type": "mặn",
+        "moods": ["bình thường"],
+        "goal": "giữ cân",
+        "meal": "sáng"
+    },
+    {
+        "name": "Nộm đu đủ bò khô",
+        "ingredients": [
+            "Đu đủ xanh", "Bò khô", "Rau thơm", "Lạc rang", "Nước mắm", "Tỏi", "Ớt"
+        ],
+        "instructions": "Bào đu đủ, trộn với bò khô, rau thơm, lạc rang. Rưới nước mắm pha chua ngọt.",
+        "difficulty": "đơn giản",
+        "type": "mặn",
+        "moods": ["vui"],
+        "goal": "giảm cân",
+        "meal": "xế"
+    },
+    {
+        "name": "Chè đậu đen",
+        "ingredients": [
+            "Đậu đen", "Đường", "Nước cốt dừa", "Muối"
+        ],
+        "instructions": "Ninh đậu đen đến mềm, thêm đường và một ít muối. Dùng kèm nước cốt dừa.",
+        "difficulty": "đơn giản",
+        "type": "chay",
+        "moods": ["buồn", "bình thường"],
+        "goal": "tăng cân",
+        "meal": "xế"
+    },
+    {
+        "name": "Canh rau ngót thịt băm",
+        "ingredients": [
+            "Rau ngót", "Thịt băm", "Hành khô", "Gia vị"
+        ],
+        "instructions": "Phi hành khô, xào thịt băm rồi đổ nước. Thêm rau ngót nấu chín và nêm gia vị.",
+        "difficulty": "đơn giản",
+        "type": "mặn",
+        "moods": ["bệnh", "bình thường"],
+        "goal": "giữ cân",
+        "meal": "tối"
+    },
+    {
+        "name": "Xôi gấc",
+        "ingredients": [
+            "Gạo nếp", "Gấc", "Dừa nạo", "Muối", "Đường"
+        ],
+        "instructions": "Trộn gấc với gạo, hấp chín, trộn đường và dừa nạo. Dùng nóng.",
+        "difficulty": "đơn giản",
+        "type": "chay",
+        "moods": ["vui"],
+        "goal": "tăng cân",
+        "meal": "sáng"
+    },
+    {
+        "name": "Cơm tấm sườn bì chả",
+        "ingredients": [
+            "Cơm tấm", "Sườn nướng", "Bì heo", "Chả trứng", "Mỡ hành", "Nước mắm"
+        ],
+        "instructions": "Nướng sườn, hấp chả trứng, trộn bì heo. Dọn cùng cơm tấm, rưới mỡ hành và nước mắm pha.",
+        "difficulty": "cầu kỳ",
+        "type": "mặn",
+        "moods": ["vui"],
+        "goal": "tăng cân",
+        "meal": "trưa"
+    },
+    {
+        "name": "Bánh canh cua",
+        "ingredients": [
+            "Bánh canh", "Cua", "Giò heo", "Hành lá", "Gia vị"
+        ],
+        "instructions": "Nấu nước dùng từ giò heo, thêm thịt cua và bánh canh vào. Rắc hành lá lên trên.",
+        "difficulty": "cầu kỳ",
+        "type": "mặn",
+        "moods": ["vui"],
+        "goal": "giữ cân",
+        "meal": "trưa"
+    },
+    {
+        "name": "Cà tím nướng mỡ hành",
+        "ingredients": [
+            "Cà tím", "Hành lá", "Dầu ăn", "Nước mắm"
+        ],
+        "instructions": "Nướng cà tím đến chín mềm, rưới mỡ hành và nước mắm lên.",
+        "difficulty": "đơn giản",
+        "type": "chay",
+        "moods": ["bình thường"],
+        "goal": "giảm cân",
+        "meal": "tối"
+    },
+    {
+        "name": "Mì Quảng",
+        "ingredients": [
+            "Mì Quảng", "Thịt gà", "Tôm", "Lạc rang", "Hành phi", "Bánh tráng", "Rau sống"
+        ],
+        "instructions": "Nấu thịt và tôm với gia vị. Luộc mì, bày ra tô cùng rau, chan nước dùng đặc và thêm lạc, hành phi.",
+        "difficulty": "cầu kỳ",
+        "type": "mặn",
+        "moods": ["vui"],
+        "goal": "giữ cân",
+        "meal": "trưa"
+    },
+    {
+        "name": "Bánh đúc nóng",
+        "ingredients": [
+            "Bột gạo", "Thịt băm", "Mộc nhĩ", "Hành phi", "Nước mắm"
+        ],
+        "instructions": "Nấu bột gạo đến khi sánh, đổ ra bát. Xào thịt với mộc nhĩ và hành, rưới lên bánh đúc. Dùng nóng với nước mắm.",
+        "difficulty": "đơn giản",
+        "type": "mặn",
+        "moods": ["buồn"],
+        "goal": "giữ cân",
+        "meal": "xế"
+    },
+    {
+        "name": "Súp cua",
+        "ingredients": [
+            "Thịt cua", "Trứng gà", "Nấm tuyết", "Ngô", "Bột năng"
+        ],
+        "instructions": "Nấu nước dùng, thêm cua, nấm, ngô. Khuấy trứng, thêm bột năng tạo độ sánh.",
+        "difficulty": "đơn giản",
+        "type": "mặn",
+        "moods": ["bệnh"],
+        "goal": "giữ cân",
+        "meal": "sáng"
+    },
+    {
+        "name": "Bún mắm",
+        "ingredients": [
+            "Bún", "Mắm cá", "Tôm", "Mực", "Cà tím", "Rau sống"
+        ],
+        "instructions": "Nấu mắm lọc lấy nước, thêm hải sản và rau củ. Ăn với bún và rau sống.",
+        "difficulty": "cầu kỳ",
+        "type": "mặn",
+        "moods": ["vui"],
+        "goal": "giữ cân",
+        "meal": "trưa"
+    },
+    {
+        "name": "Chả cá Lã Vọng",
+        "ingredients": [
+            "Cá lăng", "Thì là", "Hành lá", "Bún", "Mắm tôm"
+        ],
+        "instructions": "Ướp cá với nghệ, nướng sơ rồi chiên. Ăn nóng với bún, mắm tôm, rau thơm.",
+        "difficulty": "cầu kỳ",
+        "type": "mặn",
+        "moods": ["vui"],
+        "goal": "giữ cân",
+        "meal": "tối"
+    },
+    {
+        "name": "Canh bí đỏ thịt bằm",
+        "ingredients": [
+            "Bí đỏ", "Thịt bằm", "Hành tím", "Gia vị"
+        ],
+        "instructions": "Xào thịt với hành, thêm nước và bí đỏ, nấu đến khi mềm.",
+        "difficulty": "đơn giản",
+        "type": "mặn",
+        "moods": ["bệnh"],
+        "goal": "giữ cân",
+        "meal": "tối"
+    },
+    {
+        "name": "Xôi xoài",
+        "ingredients": [
+            "Gạo nếp", "Xoài", "Nước cốt dừa", "Đường", "Muối"
+        ],
+        "instructions": "Hấp xôi, trộn với nước cốt dừa và đường. Dọn cùng xoài chín cắt lát.",
+        "difficulty": "đơn giản",
+        "type": "chay",
+        "moods": ["vui"],
+        "goal": "tăng cân",
+        "meal": "xế"
+    },
+    {
+        "name": "Cơm gà Hội An",
+        "ingredients": [
+            "Gạo", "Thịt gà xé", "Rau răm", "Hành phi", "Nước mắm gừng"
+        ],
+        "instructions": "Nấu cơm với nước luộc gà, ăn kèm thịt gà xé, rau răm, hành phi và nước mắm gừng.",
+        "difficulty": "đơn giản",
+        "type": "mặn",
+        "moods": ["vui"],
+        "goal": "giữ cân",
+        "meal": "trưa"
+    },
+    {
+        "name": "Bánh bèo",
+        "ingredients": [
+            "Bột gạo", "Tôm khô", "Hành phi", "Nước mắm", "Mỡ hành"
+        ],
+        "instructions": "Hấp bột thành bánh nhỏ, rắc tôm khô giã nhuyễn, hành phi và chan nước mắm.",
+        "difficulty": "cầu kỳ",
+        "type": "mặn",
+        "moods": ["vui"],
+        "goal": "giữ cân",
+        "meal": "xế"
+    },
+    {
+        "name": "Mì quảng chay",
+        "ingredients": [
+            "Mì Quảng", "Đậu phụ", "Nấm", "Cà rốt", "Rau sống", "Đậu phộng"
+        ],
+        "instructions": "Nấu nước dùng từ rau củ, thêm đậu và nấm. Dọn mì với nước dùng, rau sống và đậu phộng.",
+        "difficulty": "đơn giản",
+        "type": "chay",
+        "moods": ["bình thường"],
+        "goal": "giảm cân",
+        "meal": "trưa"
+    },
+    {
+        "name": "Trứng chiên hành",
+        "ingredients": [
+            "Trứng", "Hành lá", "Dầu ăn", "Muối"
+        ],
+        "instructions": "Đánh trứng với hành, chiên vàng đều hai mặt.",
+        "difficulty": "đơn giản",
+        "type": "mặn",
+        "moods": ["bình thường"],
+        "goal": "tăng cân",
+        "meal": "sáng"
+    },
+    {
+        "name": "Canh khổ qua nhồi thịt",
+        "ingredients": [
+            "Khổ qua", "Thịt băm", "Mộc nhĩ", "Hành lá", "Gia vị"
+        ],
+        "instructions": "Nhồi thịt vào khổ qua, nấu chín trong nước dùng. Rắc hành lá khi dùng.",
+        "difficulty": "cầu kỳ",
+        "type": "mặn",
+        "moods": ["bệnh", "bình thường"],
+        "goal": "giữ cân",
+        "meal": "tối"
+    },
+    {
+        "name": "Bánh da lợn",
+        "ingredients": [
+            "Bột năng", "Bột gạo", "Nước cốt dừa", "Lá dứa", "Đường"
+        ],
+        "instructions": "Trộn bột với nước cốt dừa, chia lớp, hấp từng lớp chín rồi tiếp tục đổ lớp mới.",
+        "difficulty": "cầu kỳ",
+        "type": "chay",
+        "moods": ["vui"],
+        "goal": "tăng cân",
+        "meal": "xế"
+    },
+    {
+        "name": "Hủ tiếu Nam Vang",
+        "ingredients": [
+            "Hủ tiếu", "Tôm", "Thịt heo", "Trứng cút", "Tỏi phi", "Rau thơm"
+        ],
+        "instructions": "Luộc tôm, thịt, trứng cút. Chan nước dùng nóng vào tô hủ tiếu với các nguyên liệu đã sơ chế.",
+        "difficulty": "cầu kỳ",
+        "type": "mặn",
+        "moods": ["vui"],
+        "goal": "giữ cân",
+        "meal": "trưa"
+    },
+    {
+        "name": "Bánh mì bơ tỏi",
+        "ingredients": [
+            "Bánh mì", "Bơ", "Tỏi", "Ngò tây"
+        ],
+        "instructions": "Phết bơ tỏi lên bánh mì, nướng đến khi giòn. Rắc ngò tây lên trên.",
+        "difficulty": "đơn giản",
+        "type": "mặn",
+        "moods": ["vui"],
+        "goal": "tăng cân",
+        "meal": "xế"
+    },
+    {
+        "name": "Bắp xào bơ",
+        "ingredients": [
+            "Bắp hạt", "Bơ", "Tôm khô", "Hành lá"
+        ],
+        "instructions": "Xào bắp với bơ và tôm khô, thêm hành lá cắt nhỏ.",
+        "difficulty": "đơn giản",
+        "type": "mặn",
+        "moods": ["vui"],
+        "goal": "tăng cân",
+        "meal": "xế"
+    },
+    {
+        "name": "Sữa chua trái cây",
+        "ingredients": [
+            "Sữa chua", "Chuối", "Dâu", "Táo", "Mật ong"
+        ],
+        "instructions": "Cắt trái cây nhỏ, trộn với sữa chua và mật ong.",
+        "difficulty": "đơn giản",
+        "type": "chay",
+        "moods": ["vui", "bình thường"],
+        "goal": "giảm cân",
+        "meal": "xế"
     }
+    
 ]
