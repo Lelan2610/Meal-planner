@@ -1,16 +1,992 @@
 [
-    {
-        "name": "Salad ức gà",
-        "ingredients": ["ức gà", "rau xà lách", "cà chua", "dầu ô liu"],
-        "instructions": "Luộc ức gà, thái lát, trộn với rau và dầu ô liu.",
-        "difficulty": "đơn giản",
-        "moods": ["bình thường", "căng thẳng"]
-    },
-    {
-        "name": "Cơm tấm sườn bì chả",
-        "ingredients": ["cơm", "sườn", "bì", "chả", "nước mắm"],
-        "instructions": "Nướng sườn, hấp chả, trộn bì, dọn với cơm.",
-        "difficulty": "cầu kỳ",
-        "moods": ["vui", "bình thường"]
-    }
-]
+  {
+    "name": "Cơm tấm",
+    "ingredients": [
+      "mì",
+      "ớt",
+      "cá",
+      "xà lách"
+    ],
+    "instructions": "Nấu món cơm tấm theo cách truyền thống.",
+    "type": "chay",
+    "difficulty": "đơn giản",
+    "moods": [
+      "căng thẳng",
+      "bình thường",
+      "vui"
+    ],
+    "goal": [
+      "giảm cân",
+      "tăng cân"
+    ]
+  },
+  {
+    "name": "Bún bò Huế",
+    "ingredients": [
+      "dưa leo",
+      "yến mạch",
+      "cá",
+      "dầu oliu",
+      "mật ong",
+      "sữa"
+    ],
+    "instructions": "Nấu món bún bò huế theo cách truyền thống.",
+    "type": "thuần chay",
+    "difficulty": "cầu kỳ",
+    "moods": [
+      "bình thường"
+    ],
+    "goal": [
+      "giữ cân",
+      "giảm cân"
+    ]
+  },
+  {
+    "name": "Phở bò",
+    "ingredients": [
+      "tôm",
+      "đậu hũ",
+      "sữa hạnh nhân",
+      "dầu ăn",
+      "sữa",
+      "cơm"
+    ],
+    "instructions": "Nấu món phở bò theo cách truyền thống.",
+    "type": "thuần chay",
+    "difficulty": "đơn giản",
+    "moods": [
+      "buồn"
+    ],
+    "goal": [
+      "giảm cân",
+      "tăng cân"
+    ]
+  },
+  {
+    "name": "Gỏi cuốn",
+    "ingredients": [
+      "ngò",
+      "cá",
+      "sữa",
+      "chuối"
+    ],
+    "instructions": "Nấu món gỏi cuốn theo cách truyền thống.",
+    "type": "chay",
+    "difficulty": "cầu kỳ",
+    "moods": [
+      "căng thẳng",
+      "bình thường"
+    ],
+    "goal": [
+      "giữ cân"
+    ]
+  },
+  {
+    "name": "Bánh mì chay",
+    "ingredients": [
+      "bún",
+      "dưa leo",
+      "tôm"
+    ],
+    "instructions": "Nấu món bánh mì chay theo cách truyền thống.",
+    "type": "thuần chay",
+    "difficulty": "đơn giản",
+    "moods": [
+      "căng thẳng"
+    ],
+    "goal": [
+      "tăng cân"
+    ]
+  },
+  {
+    "name": "Chè đậu xanh",
+    "ingredients": [
+      "cá",
+      "sữa hạnh nhân",
+      "yến mạch"
+    ],
+    "instructions": "Nấu món chè đậu xanh theo cách truyền thống.",
+    "type": "thuần chay",
+    "difficulty": "cầu kỳ",
+    "moods": [
+      "vui",
+      "buồn",
+      "bình thường"
+    ],
+    "goal": [
+      "giữ cân"
+    ]
+  },
+  {
+    "name": "Bún riêu",
+    "ingredients": [
+      "sả",
+      "bún",
+      "cá",
+      "tỏi",
+      "xà lách"
+    ],
+    "instructions": "Nấu món bún riêu theo cách truyền thống.",
+    "type": "mặn",
+    "difficulty": "cầu kỳ",
+    "moods": [
+      "bình thường"
+    ],
+    "goal": [
+      "tăng cân"
+    ]
+  },
+  {
+    "name": "Canh chua cá",
+    "ingredients": [
+      "ớt",
+      "miến",
+      "mật ong"
+    ],
+    "instructions": "Nấu món canh chua cá theo cách truyền thống.",
+    "type": "chay",
+    "difficulty": "cầu kỳ",
+    "moods": [
+      "bình thường",
+      "buồn",
+      "vui"
+    ],
+    "goal": [
+      "tăng cân",
+      "giảm cân"
+    ]
+  },
+  {
+    "name": "Gà nướng mật ong",
+    "ingredients": [
+      "dưa leo",
+      "thịt bò",
+      "sữa hạnh nhân"
+    ],
+    "instructions": "Nấu món gà nướng mật ong theo cách truyền thống.",
+    "type": "chay",
+    "difficulty": "đơn giản",
+    "moods": [
+      "căng thẳng",
+      "vui",
+      "bình thường"
+    ],
+    "goal": [
+      "giữ cân",
+      "giảm cân"
+    ]
+  },
+  {
+    "name": "Bánh cuốn",
+    "ingredients": [
+      "chuối",
+      "cơm",
+      "bơ",
+      "dầu ăn",
+      "sữa",
+      "sả"
+    ],
+    "instructions": "Nấu món bánh cuốn theo cách truyền thống.",
+    "type": "chay",
+    "difficulty": "đơn giản",
+    "moods": [
+      "căng thẳng",
+      "bình thường"
+    ],
+    "goal": [
+      "giảm cân"
+    ]
+  },
+  {
+    "name": "Đậu hũ kho",
+    "ingredients": [
+      "dầu ăn",
+      "bơ",
+      "cà chua",
+      "trứng",
+      "sả"
+    ],
+    "instructions": "Nấu món đậu hũ kho theo cách truyền thống.",
+    "type": "chay",
+    "difficulty": "cầu kỳ",
+    "moods": [
+      "vui"
+    ],
+    "goal": [
+      "tăng cân",
+      "giữ cân"
+    ]
+  },
+  {
+    "name": "Salad cá ngừ",
+    "ingredients": [
+      "sữa",
+      "sữa hạnh nhân",
+      "thịt bò"
+    ],
+    "instructions": "Nấu món salad cá ngừ theo cách truyền thống.",
+    "type": "chay",
+    "difficulty": "cầu kỳ",
+    "moods": [
+      "căng thẳng"
+    ],
+    "goal": [
+      "giảm cân",
+      "tăng cân"
+    ]
+  },
+  {
+    "name": "Cháo cá hồi",
+    "ingredients": [
+      "hành",
+      "miến",
+      "ớt",
+      "chuối",
+      "dầu ăn",
+      "bơ"
+    ],
+    "instructions": "Nấu món cháo cá hồi theo cách truyền thống.",
+    "type": "thuần chay",
+    "difficulty": "cầu kỳ",
+    "moods": [
+      "căng thẳng",
+      "bình thường"
+    ],
+    "goal": [
+      "giữ cân",
+      "giảm cân"
+    ]
+  },
+  {
+    "name": "Cơm chiên trứng",
+    "ingredients": [
+      "tỏi",
+      "bún",
+      "đậu hũ"
+    ],
+    "instructions": "Nấu món cơm chiên trứng theo cách truyền thống.",
+    "type": "chay",
+    "difficulty": "cầu kỳ",
+    "moods": [
+      "buồn",
+      "bình thường",
+      "căng thẳng"
+    ],
+    "goal": [
+      "giữ cân"
+    ]
+  },
+  {
+    "name": "Miến xào rau củ",
+    "ingredients": [
+      "sữa hạnh nhân",
+      "tỏi",
+      "dầu oliu",
+      "sữa",
+      "bún",
+      "xà lách"
+    ],
+    "instructions": "Nấu món miến xào rau củ theo cách truyền thống.",
+    "type": "mặn",
+    "difficulty": "đơn giản",
+    "moods": [
+      "bình thường",
+      "vui",
+      "căng thẳng"
+    ],
+    "goal": [
+      "tăng cân"
+    ]
+  },
+  {
+    "name": "Hủ tiếu Nam Vang",
+    "ingredients": [
+      "ngò",
+      "sả",
+      "trứng",
+      "bún"
+    ],
+    "instructions": "Nấu món hủ tiếu nam vang theo cách truyền thống.",
+    "type": "thuần chay",
+    "difficulty": "cầu kỳ",
+    "moods": [
+      "buồn",
+      "vui"
+    ],
+    "goal": [
+      "tăng cân",
+      "giảm cân"
+    ]
+  },
+  {
+    "name": "Cơm gà Hải Nam",
+    "ingredients": [
+      "mật ong",
+      "thịt gà",
+      "miến",
+      "ớt",
+      "dầu oliu",
+      "hành"
+    ],
+    "instructions": "Nấu món cơm gà hải nam theo cách truyền thống.",
+    "type": "mặn",
+    "difficulty": "cầu kỳ",
+    "moods": [
+      "vui",
+      "buồn",
+      "căng thẳng"
+    ],
+    "goal": [
+      "tăng cân",
+      "giảm cân"
+    ]
+  },
+  {
+    "name": "Bánh canh cua",
+    "ingredients": [
+      "bún",
+      "tỏi",
+      "thịt bò",
+      "cá"
+    ],
+    "instructions": "Nấu món bánh canh cua theo cách truyền thống.",
+    "type": "thuần chay",
+    "difficulty": "cầu kỳ",
+    "moods": [
+      "bình thường",
+      "căng thẳng",
+      "vui"
+    ],
+    "goal": [
+      "tăng cân",
+      "giảm cân"
+    ]
+  },
+  {
+    "name": "Súp bí đỏ",
+    "ingredients": [
+      "cá",
+      "cà chua",
+      "bơ",
+      "sả"
+    ],
+    "instructions": "Nấu món súp bí đỏ theo cách truyền thống.",
+    "type": "chay",
+    "difficulty": "đơn giản",
+    "moods": [
+      "vui"
+    ],
+    "goal": [
+      "tăng cân"
+    ]
+  },
+  {
+    "name": "Mì Ý chay",
+    "ingredients": [
+      "trứng",
+      "tỏi",
+      "sữa",
+      "xà lách",
+      "sữa hạnh nhân"
+    ],
+    "instructions": "Nấu món mì ý chay theo cách truyền thống.",
+    "type": "chay",
+    "difficulty": "cầu kỳ",
+    "moods": [
+      "bình thường",
+      "vui"
+    ],
+    "goal": [
+      "giữ cân",
+      "giảm cân"
+    ]
+  },
+  {
+    "name": "Nem rán",
+    "ingredients": [
+      "thịt gà",
+      "dưa leo",
+      "thịt bò",
+      "dầu oliu"
+    ],
+    "instructions": "Nấu món nem rán theo cách truyền thống.",
+    "type": "mặn",
+    "difficulty": "đơn giản",
+    "moods": [
+      "bình thường"
+    ],
+    "goal": [
+      "giữ cân"
+    ]
+  },
+  {
+    "name": "Xôi gấc",
+    "ingredients": [
+      "sả",
+      "cơm",
+      "trứng",
+      "xà lách",
+      "thịt gà"
+    ],
+    "instructions": "Nấu món xôi gấc theo cách truyền thống.",
+    "type": "mặn",
+    "difficulty": "đơn giản",
+    "moods": [
+      "buồn",
+      "vui"
+    ],
+    "goal": [
+      "giữ cân"
+    ]
+  },
+  {
+    "name": "Trứng chiên hành",
+    "ingredients": [
+      "mật ong",
+      "mì",
+      "chuối"
+    ],
+    "instructions": "Nấu món trứng chiên hành theo cách truyền thống.",
+    "type": "thuần chay",
+    "difficulty": "cầu kỳ",
+    "moods": [
+      "bình thường",
+      "vui",
+      "căng thẳng"
+    ],
+    "goal": [
+      "giảm cân",
+      "giữ cân"
+    ]
+  },
+  {
+    "name": "Canh bí đỏ",
+    "ingredients": [
+      "thịt gà",
+      "trứng",
+      "cà chua"
+    ],
+    "instructions": "Nấu món canh bí đỏ theo cách truyền thống.",
+    "type": "chay",
+    "difficulty": "cầu kỳ",
+    "moods": [
+      "vui"
+    ],
+    "goal": [
+      "giảm cân"
+    ]
+  },
+  {
+    "name": "Thịt kho trứng",
+    "ingredients": [
+      "hành",
+      "mì",
+      "ớt",
+      "tỏi"
+    ],
+    "instructions": "Nấu món thịt kho trứng theo cách truyền thống.",
+    "type": "mặn",
+    "difficulty": "cầu kỳ",
+    "moods": [
+      "căng thẳng",
+      "buồn"
+    ],
+    "goal": [
+      "giảm cân"
+    ]
+  },
+  {
+    "name": "Gà xào sả ớt",
+    "ingredients": [
+      "trứng",
+      "thịt gà",
+      "yến mạch",
+      "cơm"
+    ],
+    "instructions": "Nấu món gà xào sả ớt theo cách truyền thống.",
+    "type": "mặn",
+    "difficulty": "đơn giản",
+    "moods": [
+      "bình thường",
+      "căng thẳng",
+      "buồn"
+    ],
+    "goal": [
+      "giữ cân"
+    ]
+  },
+  {
+    "name": "Sữa hạt óc chó",
+    "ingredients": [
+      "hành",
+      "trứng",
+      "miến"
+    ],
+    "instructions": "Nấu món sữa hạt óc chó theo cách truyền thống.",
+    "type": "mặn",
+    "difficulty": "cầu kỳ",
+    "moods": [
+      "căng thẳng"
+    ],
+    "goal": [
+      "tăng cân"
+    ]
+  },
+  {
+    "name": "Mì tôm trứng",
+    "ingredients": [
+      "tỏi",
+      "sả",
+      "cơm",
+      "yến mạch"
+    ],
+    "instructions": "Nấu món mì tôm trứng theo cách truyền thống.",
+    "type": "mặn",
+    "difficulty": "cầu kỳ",
+    "moods": [
+      "buồn",
+      "căng thẳng"
+    ],
+    "goal": [
+      "giữ cân"
+    ]
+  },
+  {
+    "name": "Cá hấp gừng",
+    "ingredients": [
+      "đậu hũ",
+      "dầu oliu",
+      "sả",
+      "sữa hạnh nhân",
+      "thịt gà",
+      "cơm"
+    ],
+    "instructions": "Nấu món cá hấp gừng theo cách truyền thống.",
+    "type": "thuần chay",
+    "difficulty": "đơn giản",
+    "moods": [
+      "căng thẳng"
+    ],
+    "goal": [
+      "giữ cân",
+      "giảm cân"
+    ]
+  },
+  {
+    "name": "Sườn xào chua ngọt",
+    "ingredients": [
+      "cá",
+      "ớt",
+      "hành",
+      "tôm"
+    ],
+    "instructions": "Nấu món sườn xào chua ngọt theo cách truyền thống.",
+    "type": "thuần chay",
+    "difficulty": "đơn giản",
+    "moods": [
+      "buồn",
+      "căng thẳng"
+    ],
+    "goal": [
+      "tăng cân",
+      "giữ cân"
+    ]
+  },
+  {
+    "name": "Bánh mì ốp la",
+    "ingredients": [
+      "mật ong",
+      "miến",
+      "cà chua",
+      "thịt bò",
+      "mì"
+    ],
+    "instructions": "Nấu món bánh mì ốp la theo cách truyền thống.",
+    "type": "chay",
+    "difficulty": "cầu kỳ",
+    "moods": [
+      "bình thường",
+      "căng thẳng",
+      "vui"
+    ],
+    "goal": [
+      "tăng cân",
+      "giữ cân"
+    ]
+  },
+  {
+    "name": "Bánh xèo",
+    "ingredients": [
+      "sữa hạnh nhân",
+      "sữa",
+      "cà chua",
+      "mì",
+      "cơm"
+    ],
+    "instructions": "Nấu món bánh xèo theo cách truyền thống.",
+    "type": "chay",
+    "difficulty": "đơn giản",
+    "moods": [
+      "buồn"
+    ],
+    "goal": [
+      "giảm cân"
+    ]
+  },
+  {
+    "name": "Cơm rang dưa bò",
+    "ingredients": [
+      "ớt",
+      "sữa",
+      "thịt bò",
+      "ngò"
+    ],
+    "instructions": "Nấu món cơm rang dưa bò theo cách truyền thống.",
+    "type": "chay",
+    "difficulty": "đơn giản",
+    "moods": [
+      "vui"
+    ],
+    "goal": [
+      "giữ cân",
+      "tăng cân"
+    ]
+  },
+  {
+    "name": "Sữa chua yến mạch",
+    "ingredients": [
+      "xà lách",
+      "chuối",
+      "cá",
+      "ngò",
+      "ớt"
+    ],
+    "instructions": "Nấu món sữa chua yến mạch theo cách truyền thống.",
+    "type": "thuần chay",
+    "difficulty": "cầu kỳ",
+    "moods": [
+      "bình thường",
+      "vui"
+    ],
+    "goal": [
+      "giảm cân"
+    ]
+  },
+  {
+    "name": "Bánh plan",
+    "ingredients": [
+      "bơ",
+      "chuối",
+      "dầu oliu",
+      "sữa",
+      "ớt"
+    ],
+    "instructions": "Nấu món bánh plan theo cách truyền thống.",
+    "type": "thuần chay",
+    "difficulty": "đơn giản",
+    "moods": [
+      "bình thường",
+      "vui",
+      "căng thẳng"
+    ],
+    "goal": [
+      "tăng cân"
+    ]
+  },
+  {
+    "name": "Cháo đậu đỏ",
+    "ingredients": [
+      "bơ",
+      "miến",
+      "hành",
+      "sữa"
+    ],
+    "instructions": "Nấu món cháo đậu đỏ theo cách truyền thống.",
+    "type": "mặn",
+    "difficulty": "đơn giản",
+    "moods": [
+      "căng thẳng"
+    ],
+    "goal": [
+      "giữ cân"
+    ]
+  },
+  {
+    "name": "Bún chay",
+    "ingredients": [
+      "cá",
+      "sả",
+      "bơ",
+      "miến"
+    ],
+    "instructions": "Nấu món bún chay theo cách truyền thống.",
+    "type": "thuần chay",
+    "difficulty": "cầu kỳ",
+    "moods": [
+      "buồn"
+    ],
+    "goal": [
+      "giảm cân"
+    ]
+  },
+  {
+    "name": "Khoai tây nướng",
+    "ingredients": [
+      "cá",
+      "ngò",
+      "cà chua",
+      "chuối",
+      "tôm",
+      "đậu hũ"
+    ],
+    "instructions": "Nấu món khoai tây nướng theo cách truyền thống.",
+    "type": "chay",
+    "difficulty": "cầu kỳ",
+    "moods": [
+      "căng thẳng",
+      "vui",
+      "bình thường"
+    ],
+    "goal": [
+      "giữ cân"
+    ]
+  },
+  {
+    "name": "Nui xào bò",
+    "ingredients": [
+      "thịt bò",
+      "yến mạch",
+      "ớt",
+      "dưa leo",
+      "sữa hạnh nhân",
+      "thịt gà"
+    ],
+    "instructions": "Nấu món nui xào bò theo cách truyền thống.",
+    "type": "chay",
+    "difficulty": "cầu kỳ",
+    "moods": [
+      "vui",
+      "bình thường"
+    ],
+    "goal": [
+      "giảm cân"
+    ]
+  },
+  {
+    "name": "Gỏi xoài chay",
+    "ingredients": [
+      "thịt bò",
+      "dầu oliu",
+      "sả",
+      "bún",
+      "mật ong",
+      "hành"
+    ],
+    "instructions": "Nấu món gỏi xoài chay theo cách truyền thống.",
+    "type": "chay",
+    "difficulty": "cầu kỳ",
+    "moods": [
+      "buồn",
+      "vui"
+    ],
+    "goal": [
+      "giữ cân"
+    ]
+  },
+  {
+    "name": "Rau muống xào tỏi",
+    "ingredients": [
+      "hành",
+      "thịt bò",
+      "dầu ăn"
+    ],
+    "instructions": "Nấu món rau muống xào tỏi theo cách truyền thống.",
+    "type": "thuần chay",
+    "difficulty": "cầu kỳ",
+    "moods": [
+      "buồn",
+      "vui",
+      "bình thường"
+    ],
+    "goal": [
+      "tăng cân",
+      "giảm cân"
+    ]
+  },
+  {
+    "name": "Canh rong biển",
+    "ingredients": [
+      "thịt bò",
+      "sữa hạnh nhân",
+      "miến",
+      "đậu hũ",
+      "sữa",
+      "sả"
+    ],
+    "instructions": "Nấu món canh rong biển theo cách truyền thống.",
+    "type": "mặn",
+    "difficulty": "đơn giản",
+    "moods": [
+      "vui"
+    ],
+    "goal": [
+      "giảm cân"
+    ]
+  },
+  {
+    "name": "Bò xào lúc lắc",
+    "ingredients": [
+      "mì",
+      "bơ",
+      "chuối",
+      "hành"
+    ],
+    "instructions": "Nấu món bò xào lúc lắc theo cách truyền thống.",
+    "type": "mặn",
+    "difficulty": "đơn giản",
+    "moods": [
+      "bình thường"
+    ],
+    "goal": [
+      "tăng cân"
+    ]
+  },
+  {
+    "name": "Trà gừng mật ong",
+    "ingredients": [
+      "thịt bò",
+      "miến",
+      "sữa"
+    ],
+    "instructions": "Nấu món trà gừng mật ong theo cách truyền thống.",
+    "type": "mặn",
+    "difficulty": "cầu kỳ",
+    "moods": [
+      "vui",
+      "bình thường",
+      "căng thẳng"
+    ],
+    "goal": [
+      "giảm cân",
+      "giữ cân"
+    ]
+  },
+  {
+    "name": "Canh khổ qua",
+    "ingredients": [
+      "yến mạch",
+      "thịt gà",
+      "mật ong",
+      "dưa leo"
+    ],
+    "instructions": "Nấu món canh khổ qua theo cách truyền thống.",
+    "type": "thuần chay",
+    "difficulty": "đơn giản",
+    "moods": [
+      "bình thường",
+      "căng thẳng",
+      "vui"
+    ],
+    "goal": [
+      "giảm cân"
+    ]
+  },
+  {
+    "name": "Đậu hũ nhồi thịt",
+    "ingredients": [
+      "mì",
+      "cơm",
+      "hành",
+      "xà lách",
+      "miến"
+    ],
+    "instructions": "Nấu món đậu hũ nhồi thịt theo cách truyền thống.",
+    "type": "chay",
+    "difficulty": "cầu kỳ",
+    "moods": [
+      "vui",
+      "căng thẳng"
+    ],
+    "goal": [
+      "giảm cân",
+      "giữ cân"
+    ]
+  },
+  {
+    "name": "Gà luộc",
+    "ingredients": [
+      "trứng",
+      "miến",
+      "dầu ăn",
+      "sữa"
+    ],
+    "instructions": "Nấu món gà luộc theo cách truyền thống.",
+    "type": "mặn",
+    "difficulty": "cầu kỳ",
+    "moods": [
+      "buồn",
+      "căng thẳng"
+    ],
+    "goal": [
+      "tăng cân"
+    ]
+  },
+  {
+    "name": "Bò nướng lá lốt",
+    "ingredients": [
+      "cơm",
+      "dầu oliu",
+      "cá",
+      "sữa hạnh nhân",
+      "thịt gà"
+    ],
+    "instructions": "Nấu món bò nướng lá lốt theo cách truyền thống.",
+    "type": "thuần chay",
+    "difficulty": "cầu kỳ",
+    "moods": [
+      "căng thẳng",
+      "bình thường"
+    ],
+    "goal": [
+      "tăng cân"
+    ]
+  },
+  {
+    "name": "Mực xào chua ngọt",
+    "ingredients": [
+      "bún",
+      "mật ong",
+      "cơm",
+      "tôm",
+      "mì"
+    ],
+    "instructions": "Nấu món mực xào chua ngọt theo cách truyền thống.",
+    "type": "chay",
+    "difficulty": "cầu kỳ",
+    "moods": [
+      "vui"
+    ],
+    "goal": [
+      "giảm cân",
+      "giữ cân"
+    ]
+  },
+  {
+    "name": "Cháo trắng",
+    "ingredients": [
+      "dầu ăn",
+      "hành",
+      "cơm"
+    ],
+    "instructions": "Nấu món cháo trắng theo cách truyền thống.",
+    "type": "chay",
+    "difficulty": "cầu kỳ",
+    "moods": [
+      "buồn"
+    ],
+    "goal": [
+      "giữ cân",
+      "tăng cân"
+    ]
+  }
+      ]
