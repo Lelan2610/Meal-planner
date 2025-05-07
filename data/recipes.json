@@ -1,154 +1,1346 @@
 [
     {
         "name": "Súp bí đỏ",
-        "ingredients": [
+        "thành phần": [
             "Bí đỏ",
             "Sữa tươi",
-            "Hành tây",
+            "Hành Tây",
             "Tỏi",
             "Muối",
             "Tiêu"
         ],
-        "instructions": "Nấu bí đỏ và hành tây cho mềm, sau đó xay nhuyễn với sữa tươi.",
-        "difficulty": "đơn giản",
+        "guides": "Nấu bí đỏ và hành tây chosoft, sau đó xay nhuyễn với sữa tươi.",
+        "khó khăn": "đơn giản",
         "type": "mặn",
-        "moods": [
+        "tâm trạng": [
             "vui",
             "bình thường"
         ],
-        "goal": "giữ cân",
-        "meal": "sáng"
+        "mục tiêu": "giữ cân",
+        "bữa ăn": "sáng"
     },
     {
         "name": "Salad rau trộn",
-        "ingredients": [
+        "thành phần": [
             "Xà lách",
             "Dưa leo",
             "Cà chua",
             "Hành tím",
-            "Dầu olive",
+            "Dầu ô liu",
             "Muối"
         ],
         "instructions": "Trộn đều các nguyên liệu với dầu olive và muối.",
-        "difficulty": "đơn giản",
-        "type": "chay",
-        "moods": [
+        "khó khăn": "đơn giản",
+        "loại": "chay",
+        "tâm trạng": [
             "vui",
             "bình thường"
         ],
-        "goal": "giảm cân",
-        "meal": "sáng"
+        "mục tiêu": "giảm cân",
+        "bữa ăn": "sáng"
     },
     {
         "name": "Cơm chiên gà",
-        "ingredients": [
+        "thành phần": [
             "Cơm nguội",
             "Gà",
             "Cà rốt",
-            "Hành tây",
+            "Hành Tây",
             "Dầu ăn",
             "Nước mắm"
         ],
-        "instructions": "Chiên gà, sau đó xào cơm với cà rốt và hành tây.",
+        "hướng dẫn": "Chiên gà, xào cơm với cà rốt và hành tây.",
         "difficulty": "cầu kỳ",
         "type": "mặn",
-        "moods": [
+        "tâm trạng": [
             "căng thẳng",
             "vui"
         ],
-        "goal": "tăng cân",
+        "mục tiêu": "tăng cân",
         "meal": "trưa"
     },
     {
         "name": "Mì xào thập cẩm",
-        "ingredients": [
-            "Mì",
+        "thành phần": [
+            "Tôi",
             "Tôm",
             "Mực",
             "Cà rốt",
-            "Hành tây",
+            "Hành Tây",
             "Nước tương"
         ],
-        "instructions": "Xào mì với các loại hải sản và rau củ.",
+        "guides": "Xào ​​mì với các loại hải sản và rau củ.",
         "difficulty": "cầu kỳ",
         "type": "mặn",
-        "moods": [
+        "tâm trạng": [
             "căng thẳng"
         ],
-        "goal": "tăng cân",
+        "mục tiêu": "tăng cân",
         "meal": "trưa"
     },
     {
         "name": "Canh cá nấu chua",
-        "ingredients": [
+        "thành phần": [
             "Cá",
             "Cà chua",
-            "Dọc mùng",
-            "Mẻ",
+            "Đọc mùng",
+            "Tôi",
             "Tỏi",
             "Gia vị"
         ],
         "instructions": "Nấu cá và rau củ với gia vị cho đến khi mềm.",
-        "difficulty": "đơn giản",
+        "khó khăn": "đơn giản",
         "type": "mặn",
-        "moods": [
+        "tâm trạng": [
             "buồn",
             "bình thường"
         ],
-        "goal": "giữ cân",
-        "meal": "tối"
+        "mục tiêu": "giữ cân",
+        "bữa ăn": "tối đa"
     },
     {
         "name": "Cơm chiên rau củ",
-        "ingredients": [
+        "thành phần": [
             "Cơm nguội",
             "Cà rốt",
             "Đậu hà lan",
             "Hành lá",
-            "Dầu olive"
+            "Dầu ô liu"
         ],
         "instructions": "Chiên cơm với rau củ và dầu olive.",
-        "difficulty": "đơn giản",
-        "type": "chay",
-        "moods": [
+        "khó khăn": "đơn giản",
+        "loại": "chay",
+        "tâm trạng": [
             "vui"
         ],
-        "goal": "giảm cân",
-        "meal": "tối"
+        "mục tiêu": "giảm cân",
+        "bữa ăn": "tối đa"
     },
     {
         "name": "Gà nướng mật ong",
-        "ingredients": [
+        "thành phần": [
             "Gà",
-            "Mật ong",
+            "Mật ông",
             "Tỏi",
             "Gia vị"
         ],
-        "instructions": "Ướp gà với mật ong và gia vị, sau đó nướng cho chín.",
+        "guides": "Ướp gà với mật ong và gia vị, sau đó nướng cho chín.",
         "difficulty": "cầu kỳ",
         "type": "mặn",
-        "moods": [
+        "tâm trạng": [
             "căng thẳng"
         ],
-        "goal": "tăng cân",
+        "mục tiêu": "tăng cân",
         "meal": "trưa"
     },
     {
-        "name": "Bánh mì chay",
-        "ingredients": [
+        "tên": "Bánh mì chay",
+        "thành phần": [
             "Bánh mì",
             "Đậu phụ",
             "Xà lách",
             "Dưa leo",
             "Nước tương"
         ],
-        "instructions": "Kẹp đậu phụ và rau vào bánh mì, thêm nước tương.",
-        "difficulty": "đơn giản",
-        "type": "chay",
-        "moods": [
+        "guides": "Kẹp đậu phụ và rau vào bánh mì, thêm nước tương.",
+        "khó khăn": "đơn giản",
+        "loại": "chay",
+        "tâm trạng": [
             "vui"
         ],
-        "goal": "giảm cân",
-        "meal": "sáng"
+        "mục tiêu": "giảm cân",
+        "bữa ăn": "sáng"
+    },
+    {
+        "name": "Sườn xào chua ngọt",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "guides": " Hướng dẫn chế biến món sườn xào chua ngọt.",
+        "khó khăn": "đơn giản",
+        "loại": "chay",
+        "tâm trạng": [
+            "bình thường"
+        ],
+        "mục tiêu": "tăng cân",
+        "meal": "trưa"
+    },
+    {
+        "name": "Cơm rang dưa bò",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "guides": " Hướng dẫn chế biến món cơm rang dưa bò.",
+        "difficulty": "cầu kỳ",
+        "loại": "chay",
+        "tâm trạng": [
+            "bình thường",
+            "căng thẳng"
+        ],
+        "mục tiêu": "giữ cân",
+        "bữa ăn": "sáng"
+    },
+    {
+        "name": "Cá chiên xù",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": "Hướng dẫn chế độ món cá chiên xù.",
+        "difficulty": "cầu kỳ",
+        "type": "mặn",
+        "tâm trạng": [
+            "bình thường",
+            "căng thẳng"
+        ],
+        "mục tiêu": "giảm cân",
+        "bữa ăn": "sáng"
+    },
+    {
+        "name": "Bánh khoai mì nướng",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "guides": " Hướng dẫn chế biến món bánh khoai mì nướng.",
+        "khó khăn": "đơn giản",
+        "loại": "chay",
+        "tâm trạng": [
+            "căng thẳng"
+        ],
+        "mục tiêu": "tăng cân",
+        "bữa ăn": "tối đa"
+    },
+    {
+        "name": "Bánh mì ốp la",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế biến món bánh mì ốp la.",
+        "difficulty": "cầu kỳ",
+        "loại": "chay",
+        "tâm trạng": [
+            "căng thẳng"
+        ],
+        "mục tiêu": "giữ cân",
+        "bữa ăn": "tối đa"
+    },
+    {
+        "tên": "Mì Quảng",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế biến món mì quảng.",
+        "khó khăn": "đơn giản",
+        "type": "mặn",
+        "tâm trạng": [
+            "vui",
+            "buồn"
+        ],
+        "mục tiêu": "tăng cân",
+        "bữa ăn": "sáng"
+    },
+    {
+        "name": "Bò xào rau muống",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế biến món bò xào rau muống.",
+        "difficulty": "cầu kỳ",
+        "type": "mặn",
+        "tâm trạng": [
+            "vui",
+            "bình thường"
+        ],
+        "mục tiêu": "tăng cân",
+        "meal": "trưa"
+    },
+    {
+        "name": "Sức mạnh cần tỏi",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế độ món xào cần tỏi.",
+        "difficulty": "cầu kỳ",
+        "loại": "chay",
+        "tâm trạng": [
+            "bình thường"
+        ],
+        "mục tiêu": "giảm cân",
+        "meal": "trưa"
+    },
+    {
+        "name": "Miến lươn",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế độ sản phẩm miến lươn.",
+        "difficulty": "cầu kỳ",
+        "type": "mặn",
+        "tâm trạng": [
+            "bình thường",
+            "căng thẳng"
+        ],
+        "mục tiêu": "tăng cân",
+        "bữa ăn": "tối đa"
+    },
+    {
+        "name": "Cháo cá lóc",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "guides": "Hướng dẫn chế biến món cháo cá lóc.",
+        "difficulty": "cầu kỳ",
+        "type": "mặn",
+        "tâm trạng": [
+            "căng thẳng",
+            "vui"
+        ],
+        "mục tiêu": "tăng cân",
+        "bữa ăn": "tối đa"
+    },
+    {
+        "name": "Chả giò chay",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế biến món chả giò chay.",
+        "difficulty": "cầu kỳ",
+        "type": "mặn",
+        "tâm trạng": [
+            "vui",
+            "bình thường"
+        ],
+        "mục tiêu": "tăng cân",
+        "bữa ăn": "sáng"
+    },
+    {
+        "tên": "Phở bò",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": "Hướng dẫn chế độ món phở bò.",
+        "khó khăn": "đơn giản",
+        "type": "mặn",
+        "tâm trạng": [
+            "căng thẳng"
+        ],
+        "mục tiêu": "giữ cân",
+        "bữa ăn": "tối đa"
+    },
+    {
+        "name": "Canh cải nấu hồng",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế biến món canh cải thiện nấu hồng.",
+        "khó khăn": "đơn giản",
+        "type": "mặn",
+        "tâm trạng": [
+            "bình thường"
+        ],
+        "mục tiêu": "giữ cân",
+        "bữa ăn": "tối đa"
+    },
+    {
+        "name": "Cá kho tộ",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế độ món cá kho.",
+        "difficulty": "cầu kỳ",
+        "type": "mặn",
+        "tâm trạng": [
+            "buồn",
+            "bình thường"
+        ],
+        "mục tiêu": "giữ cân",
+        "bữa ăn": "tối đa"
+    },
+    {
+        "tên": "Bánh canh cua",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế biến món bánh canh cua.",
+        "difficulty": "cầu kỳ",
+        "type": "mặn",
+        "tâm trạng": [
+            "vui"
+        ],
+        "mục tiêu": "giữ cân",
+        "bữa ăn": "sáng"
+    },
+    {
+        "name": "Cơm cuộn rong biển",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế độ món ăn cuộn rong biển.",
+        "khó khăn": "đơn giản",
+        "loại": "chay",
+        "tâm trạng": [
+            "vui"
+        ],
+        "mục tiêu": "giữ cân",
+        "bữa ăn": "sáng"
+    },
+    {
+        "name": "Cơm chiên cá mặn",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "guides": " Hướng dẫn chế độ món cơm chiên cá mặn.",
+        "khó khăn": "đơn giản",
+        "loại": "chay",
+        "tâm trạng": [
+            "bình thường",
+            "vui"
+        ],
+        "mục tiêu": "giữ cân",
+        "bữa ăn": "tối đa"
+    },
+    {
+        "name": "Cháo đậu đỏ",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "guides": " Hướng dẫn chế biến món cháo đỏ đậu.",
+        "difficulty": "cầu kỳ",
+        "loại": "chay",
+        "tâm trạng": [
+            "bình thường",
+            "vui"
+        ],
+        "mục tiêu": "tăng cân",
+        "bữa ăn": "sáng"
+    },
+    {
+        "name": "Canh măng hầm xương",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế độ món canh tường hầm xương.",
+        "khó khăn": "đơn giản",
+        "loại": "chay",
+        "tâm trạng": [
+            "căng thẳng"
+        ],
+        "mục tiêu": "giảm cân",
+        "meal": "trưa"
+    },
+    {
+        "tên": "Chè đậu xanh",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế biến món chè đậu xanh.",
+        "khó khăn": "đơn giản",
+        "loại": "chay",
+        "tâm trạng": [
+            "vui"
+        ],
+        "mục tiêu": "giảm cân",
+        "meal": "trưa"
+    },
+    {
+        "name": "Sữa chua trái cây",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế độ món sữa chua trái cây.",
+        "difficulty": "cầu kỳ",
+        "type": "mặn",
+        "tâm trạng": [
+            "bình thường"
+        ],
+        "mục tiêu": "giảm cân",
+        "bữa ăn": "sáng"
+    },
+    {
+        "name": "Canh bầu nấu tôm",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế biến món canh giáo nấu tôm.",
+        "difficulty": "cầu kỳ",
+        "loại": "chay",
+        "tâm trạng": [
+            "buồn"
+        ],
+        "mục tiêu": "tăng cân",
+        "meal": "trưa"
+    },
+    {
+        "name": "Bánh chuối hấp",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "guides": " Hướng dẫn chế biến món bánh chuối hấp.",
+        "khó khăn": "đơn giản",
+        "type": "mặn",
+        "tâm trạng": [
+            "bình thường"
+        ],
+        "mục tiêu": "giữ cân",
+        "meal": "trưa"
+    },
+    {
+        "name": "Canh chua cá lóc",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế độ món canh chua cá lóc.",
+        "khó khăn": "đơn giản",
+        "type": "mặn",
+        "tâm trạng": [
+            "căng thẳng"
+        ],
+        "mục tiêu": "giảm cân",
+        "bữa ăn": "tối đa"
+    },
+    {
+        "name": "Chè trôi nước",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế độ món chè trôi nước.",
+        "khó khăn": "đơn giản",
+        "type": "mặn",
+        "tâm trạng": [
+            "vui",
+            "buồn"
+        ],
+        "mục tiêu": "giữ cân",
+        "bữa ăn": "sáng"
+    },
+    {
+        "name": "Chả cá Lã Vọng",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "guides": " Hướng dẫn chế biến món chả cá lã vọng.",
+        "khó khăn": "đơn giản",
+        "loại": "chay",
+        "tâm trạng": [
+            "vui",
+            "căng thẳng"
+        ],
+        "mục tiêu": "giảm cân",
+        "meal": "trưa"
+    },
+    {
+        "name": "Cá hấp hành pub",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế biến món cá hấp hành gung.",
+        "khó khăn": "đơn giản",
+        "loại": "chay",
+        "tâm trạng": [
+            "buồn"
+        ],
+        "mục tiêu": "giảm cân",
+        "bữa ăn": "sáng"
+    },
+    {
+        "tên": "Canh rau ngót thịt bằm",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế biến món canh rau ngót thịt bằm.",
+        "difficulty": "cầu kỳ",
+        "loại": "chay",
+        "tâm trạng": [
+            "buồn",
+            "vui"
+        ],
+        "mục tiêu": "tăng cân",
+        "bữa ăn": "sáng"
+    },
+    {
+        "tên": "Cháo gà",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "hướng dẫn": " Hướng dẫn chế biến món cháo gà.",
+        "khó khăn": "đơn giản",
+        "loại": "chay",
+        "tâm trạng": [
+            "buồn",
+            "bình thường"
+        ],
+        "mục tiêu": "tăng cân",
+        "bữa ăn": "sáng"
+    },
+    {
+        "name": "Mì vịt tiềm",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế biến món mì vịt tiềm.",
+        "khó khăn": "đơn giản",
+        "loại": "chay",
+        "tâm trạng": [
+            "buồn",
+            "căng thẳng"
+        ],
+        "mục tiêu": "giảm cân",
+        "bữa ăn": "sáng"
+    },
+    {
+        "name": "Súp gà ngô non",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế độ biến món gà con non.",
+        "difficulty": "cầu kỳ",
+        "type": "mặn",
+        "tâm trạng": [
+            "buồn"
+        ],
+        "mục tiêu": "giữ cân",
+        "bữa ăn": "sáng"
+    },
+    {
+        "tên": "Bánh bèo",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế biến món bánh bèo.",
+        "difficulty": "cầu kỳ",
+        "loại": "chay",
+        "tâm trạng": [
+            "căng thẳng",
+            "vui"
+        ],
+        "mục tiêu": "giữ cân",
+        "bữa ăn": "tối đa"
+    },
+    {
+        "tên": "Xôi xoài",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "guides": " Hướng dẫn chế biến món xoài xoài.",
+        "difficulty": "cầu kỳ",
+        "type": "mặn",
+        "tâm trạng": [
+            "căng thẳng",
+            "bình thường"
+        ],
+        "mục tiêu": "giữ cân",
+        "bữa ăn": "tối đa"
+    },
+    {
+        "name": "Trứng sốt sốt me",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế độ tinh bột sốt cho tôi.",
+        "khó khăn": "đơn giản",
+        "loại": "chay",
+        "tâm trạng": [
+            "căng thẳng"
+        ],
+        "mục tiêu": "giảm cân",
+        "bữa ăn": "sáng"
+    },
+    {
+        "tên": "Bánh xèo",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế biến món bánh xèo.",
+        "khó khăn": "đơn giản",
+        "type": "mặn",
+        "tâm trạng": [
+            "buồn",
+            "bình thường"
+        ],
+        "mục tiêu": "giảm cân",
+        "bữa ăn": "tối đa"
+    },
+    {
+        "name": "Canh đau qua nhồi thịt",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế độ món canh đau qua chết thịt.",
+        "difficulty": "cầu kỳ",
+        "type": "mặn",
+        "tâm trạng": [
+            "vui",
+            "buồn"
+        ],
+        "mục tiêu": "giảm cân",
+        "bữa ăn": "tối đa"
+    },
+    {
+        "name": "Súp lơ xào tỏi",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế biến món ăn nhẹ nhàng xào tỏi.",
+        "difficulty": "cầu kỳ",
+        "type": "mặn",
+        "tâm trạng": [
+            "bình thường",
+            "căng thẳng"
+        ],
+        "mục tiêu": "giảm cân",
+        "meal": "trưa"
+    },
+    {
+        "tên": "Bánh flan",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế biến món bánh flan.",
+        "khó khăn": "đơn giản",
+        "type": "mặn",
+        "tâm trạng": [
+            "buồn"
+        ],
+        "mục tiêu": "giữ cân",
+        "bữa ăn": "sáng"
+    },
+    {
+        "tên": "Bún mọc",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "guides": " Hướng dẫn chế biến món bún mọc.",
+        "difficulty": "cầu kỳ",
+        "loại": "chay",
+        "tâm trạng": [
+            "buồn",
+            "bình thường"
+        ],
+        "mục tiêu": "giữ cân",
+        "bữa ăn": "sáng"
+    },
+    {
+        "name": "Cơm gà Hội An",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "guides": " Hướng dẫn chế biến món cơm gà hội an.",
+        "difficulty": "cầu kỳ",
+        "loại": "chay",
+        "tâm trạng": [
+            "buồn",
+            "bình thường"
+        ],
+        "mục tiêu": "tăng cân",
+        "bữa ăn": "sáng"
+    },
+    {
+        "tên": "Chè bưởi",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế độ chè bưởi.",
+        "khó khăn": "đơn giản",
+        "loại": "chay",
+        "tâm trạng": [
+            "bình thường"
+        ],
+        "mục tiêu": "giảm cân",
+        "meal": "trưa"
+    },
+    {
+        "name": "Súp nấm chay",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế biến món ăn lá nấm chay.",
+        "difficulty": "cầu kỳ",
+        "loại": "chay",
+        "tâm trạng": [
+            "căng thẳng"
+        ],
+        "mục tiêu": "giảm cân",
+        "meal": "trưa"
+    },
+    {
+        "name": "Cà ri chay",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế độ món cà ri chay.",
+        "khó khăn": "đơn giản",
+        "loại": "chay",
+        "tâm trạng": [
+            "vui",
+            "bình thường"
+        ],
+        "mục tiêu": "tăng cân",
+        "bữa ăn": "tối đa"
+    },
+    {
+        "name": "Đậu phụ kho hồng",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế biến món đậu phụ kho nấm.",
+        "khó khăn": "đơn giản",
+        "type": "mặn",
+        "tâm trạng": [
+            "bình thường"
+        ],
+        "mục tiêu": "giảm cân",
+        "meal": "trưa"
+    },
+    {
+        "name": "Bún riêu cua",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "guides": " Hướng dẫn chế biến món bún riêu cua.",
+        "difficulty": "cầu kỳ",
+        "loại": "chay",
+        "tâm trạng": [
+            "buồn",
+            "căng thẳng"
+        ],
+        "mục tiêu": "giảm cân",
+        "bữa ăn": "tối đa"
+    },
+    {
+        "name": "Bánh tráng trộn",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế độ bánh tráng trộn.",
+        "khó khăn": "đơn giản",
+        "type": "mặn",
+        "tâm trạng": [
+            "buồn",
+            "vui"
+        ],
+        "mục tiêu": "giảm cân",
+        "bữa ăn": "sáng"
+    },
+    {
+        “tên”: “Cơm cháy chà bông”,
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "hướng dẫn": " Hướng dẫn chế biến món cơm cháy chà bông.",
+        "khó khăn": "đơn giản",
+        "loại": "chay",
+        "tâm trạng": [
+            "vui",
+            "bình thường"
+        ],
+        "mục tiêu": "giảm cân",
+        "bữa ăn": "tối đa"
+    },
+    {
+        "name": "Khoai lang nướng",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "guides": " Hướng dẫn chế biến món khoai lang nướng.",
+        "khó khăn": "đơn giản",
+        "loại": "chay",
+        "tâm trạng": [
+            "căng thẳng",
+            "bình thường"
+        ],
+        "mục tiêu": "giữ cân",
+        "bữa ăn": "sáng"
+    },
+    {
+        "name": "Mì xào cua",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế độ món ăn xào cua.",
+        "difficulty": "cầu kỳ",
+        "type": "mặn",
+        "tâm trạng": [
+            "căng thẳng"
+        ],
+        "mục tiêu": "giảm cân",
+        "bữa ăn": "sáng"
+    },
+    {
+        "name": "Mì trứng xào rau củ",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế biến món mì trứng gió rau củ.",
+        "khó khăn": "đơn giản",
+        "loại": "chay",
+        "tâm trạng": [
+            "vui"
+        ],
+        "mục tiêu": "giữ cân",
+        "meal": "trưa"
+    },
+    {
+        "tên": "Bún bò Huế",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "guides": " Hướng dẫn chế biến món bún bò huế.",
+        "difficulty": "cầu kỳ",
+        "loại": "chay",
+        "tâm trạng": [
+            "bình thường"
+        ],
+        "mục tiêu": "giữ cân",
+        "bữa ăn": "sáng"
+    },
+    {
+        "name": "Hủ tiếu gõ",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế biến món ăn hủ tiếu gõ.",
+        "difficulty": "cầu kỳ",
+        "type": "mặn",
+        "tâm trạng": [
+            "buồn"
+        ],
+        "mục tiêu": "giữ cân",
+        "meal": "trưa"
+    },
+    {
+        "name": "Gỏi đu đủ",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế độ món gỏi đu đủ.",
+        "difficulty": "cầu kỳ",
+        "loại": "chay",
+        "tâm trạng": [
+            "buồn",
+            "vui"
+        ],
+        "mục tiêu": "giảm cân",
+        "meal": "trưa"
+    },
+    {
+        "name": "Gỏi xoài tôm khô",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế độ món gỏi tôm khô.",
+        "khó khăn": "đơn giản",
+        "loại": "chay",
+        "tâm trạng": [
+            "căng thẳng",
+            "vui"
+        ],
+        "mục tiêu": "tăng cân",
+        "bữa ăn": "tối đa"
+    },
+    {
+        "name": "Gà xào sả ớt",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "guides": " Hướng dẫn chế biến món gà xào sả ớt.",
+        "difficulty": "cầu kỳ",
+        "type": "mặn",
+        "tâm trạng": [
+            "căng thẳng",
+            "buồn"
+        ],
+        "mục tiêu": "tăng cân",
+        "bữa ăn": "sáng"
+    },
+    {
+        "tên": "Bò kho",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": "Hướng dẫn chế biến món bò kho.",
+        "khó khăn": "đơn giản",
+        "type": "mặn",
+        "tâm trạng": [
+            "buồn"
+        ],
+        "mục tiêu": "giữ cân",
+        "bữa ăn": "sáng"
+    },
+    {
+        "name": "Đậu hũ bột sả",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế biến món đậu hũ sả.",
+        "difficulty": "cầu kỳ",
+        "loại": "chay",
+        "tâm trạng": [
+            "vui"
+        ],
+        "mục tiêu": "giữ cân",
+        "meal": "trưa"
+    },
+    {
+        "name": "Trộn",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": "Hướng dẫn chế độ trộn món ăn.",
+        "khó khăn": "đơn giản",
+        "type": "mặn",
+        "tâm trạng": [
+            "buồn",
+            "bình thường"
+        ],
+        "mục tiêu": "tăng cân",
+        "bữa ăn": "sáng"
+    },
+    {
+        "tên": "Núi xào bò",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế độ món xào bò.",
+        "difficulty": "cầu kỳ",
+        "loại": "chay",
+        "tâm trạng": [
+            "bình thường",
+            "vui"
+        ],
+        "mục tiêu": "giữ cân",
+        "meal": "trưa"
+    },
+    {
+        "name": "Gỏi bò giác",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế độ sản phẩm gỏi bò giác.",
+        "khó khăn": "đơn giản",
+        "type": "mặn",
+        "tâm trạng": [
+            "buồn"
+        ],
+        "mục tiêu": "tăng cân",
+        "bữa ăn": "sáng"
+    },
+    {
+        "name": "Salad bơ trứng",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế độ món salad bơ trứng.",
+        "khó khăn": "đơn giản",
+        "type": "mặn",
+        "tâm trạng": [
+            "bình thường"
+        ],
+        "mục tiêu": "tăng cân",
+        "meal": "trưa"
+    },
+    {
+        "name": "Gà kho",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế độ món gà kho gung.",
+        "khó khăn": "đơn giản",
+        "type": "mặn",
+        "tâm trạng": [
+            "căng thẳng",
+            "bình thường"
+        ],
+        "mục tiêu": "giảm cân",
+        "meal": "trưa"
+    },
+    {
+        "name": "Xôi đậu",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế biến món xôi đậu nành.",
+        "difficulty": "cầu kỳ",
+        "type": "mặn",
+        "tâm trạng": [
+            "vui"
+        ],
+        "mục tiêu": "giữ cân",
+        "bữa ăn": "sáng"
+    },
+    {
+        "name": "Cà pháo tôm",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế biến món cà pháo mắm tôm.",
+        "khó khăn": "đơn giản",
+        "type": "mặn",
+        "tâm trạng": [
+            "bình thường",
+            "vui"
+        ],
+        "mục tiêu": "giảm cân",
+        "meal": "trưa"
+    },
+    {
+        "name": "Mì trộn Hàn Quốc",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế độ món mì trộn hàn quốc.",
+        "difficulty": "cầu kỳ",
+        "loại": "chay",
+        "tâm trạng": [
+            "căng thẳng",
+            "bình thường"
+        ],
+        "mục tiêu": "giảm cân",
+        "bữa ăn": "sáng"
+    },
+    {
+        "name": "Trứng hấp",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế độ sản phẩm hấp.",
+        "khó khăn": "đơn giản",
+        "type": "mặn",
+        "tâm trạng": [
+            "bình thường",
+            "buồn"
+        ],
+        "mục tiêu": "giữ cân",
+        "bữa ăn": "tối đa"
+    },
+    {
+        "name": "Canh rong biển trứng",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế độ món canh rong biển trứng.",
+        "difficulty": "cầu kỳ",
+        "type": "mặn",
+        "tâm trạng": [
+            "căng thẳng",
+            "bình thường"
+        ],
+        "mục tiêu": "tăng cân",
+        "bữa ăn": "sáng"
+    },
+    {
+        "name": "Tên kho tiêu",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế biến món hồng kho tiêu.",
+        "khó khăn": "đơn giản",
+        "type": "mặn",
+        "tâm trạng": [
+            "căng thẳng",
+            "buồn"
+        ],
+        "mục tiêu": "giữ cân",
+        "bữa ăn": "tối đa"
+    },
+    {
+        "name": "Đậu hũ sốt cà",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": "Hướng dẫn chế biến món đậu hũ sốt cà.",
+        "difficulty": "cầu kỳ",
+        "loại": "chay",
+        "tâm trạng": [
+            "bình thường"
+        ],
+        "mục tiêu": "giảm cân",
+        "meal": "trưa"
+    },
+    {
+        "tên": "Bún mắm",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "guides": " Hướng dẫn chế biến món bún mắm.",
+        "difficulty": "cầu kỳ",
+        "type": "mặn",
+        "tâm trạng": [
+            "bình thường",
+            "căng thẳng"
+        ],
+        "mục tiêu": "giảm cân",
+        "bữa ăn": "sáng"
+    },
+    {
+        "name": "Trứng cuộn",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "instructions": " Hướng dẫn chế độ sản phẩm cuộn.",
+        "khó khăn": "đơn giản",
+        "type": "mặn",
+        "tâm trạng": [
+            "vui"
+        ],
+        "mục tiêu": "giữ cân",
+        "meal": "trưa"
+    },
+    {
+        "name": "Cơm rang kim chi",
+        "thành phần": [
+            "Nguyên liệu 1",
+            "Nguyên liệu 2",
+            "Nguyên liệu 3"
+        ],
+        "guides": " Hướng dẫn chế biến món cơm rang kim chi.",
+        "difficulty": "cầu kỳ",
+        "loại": "chay",
+        "tâm trạng": [
+            "vui",
+            "căng thẳng"
+        ],
+        "mục tiêu": "tăng cân",
+        "bữa ăn": "sáng"
     }
 ]
