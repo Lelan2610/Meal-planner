@@ -1,46 +1,60 @@
 import streamlit as st
 import openai
 import os
+import time
+from openai import RateLimitError
 
-# Lấy API key từ secret
+# Thiết lập API key từ secrets
 openai.api_key = st.secrets["OPENAI_API_KEY"]
 
+# Hàm gọi API OpenAI để tạo món ăn
 def generate_meal_plan(goal, mood, meal_time):
     prompt = f"""
-    Tạo 2 món ăn phù hợp với các tiêu chí sau:
+    Tạo 1 món ăn phù hợp với:
     - Mục tiêu: {goal}
     - Tâm trạng: {mood}
-    - Bữa ăn: {meal_time}
-    
-    Mỗi món hãy liệt kê:
+    - Bữa: {meal_time}
+
+    Mỗi món ăn hãy trình bày:
     - Tên món
     - Nguyên liệu
     - Cách làm
-    - Độ khó (đơn giản hoặc cầu kỳ)
-    - Loại món (mặn hoặc chay)
-    - Phù hợp bữa nào (sáng/trưa/tối)
-    
-    Xuất dưới dạng JSON array.
+    - Độ khó (đơn giản/cầu kỳ)
+    - Loại món (mặn/chay)
+    - Mục tiêu dinh dưỡng
     """
 
-    response = openai.chat.completions.create(
-        model="gpt-3.5-turbo",
-        messages=[
-            {"role": "system", "content": "Bạn là một đầu bếp Việt giỏi."},
-            {"role": "user", "content": prompt}
-        ],
-        temperature=0.7
-    )
-    return response.choices[0].message.content
+    for attempt in range(3):
+        try:
+            response = openai.chat.completions.create(
+                model="gpt-3.5-turbo",
+                messages=[
+                    {"role": "system", "content": "Bạn là một đầu bếp Việt chuyên nghiệp."},
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=0.7,
+            )
+            return response.choices[0].message.content
 
-# Giao diện người dùng
-st.title("AI Gợi ý món ăn theo tâm trạng & mục tiêu")
+        except RateLimitError:
+            time.sleep(5)
+        except Exception as e:
+            return f"Đã xảy ra lỗi: {e}"
+
+    return "API đang quá tải. Vui lòng thử lại sau."
+
+# Giao diện người dùng với Streamlit
+st.set_page_config(page_title="Meal Planner AI", page_icon="🍽️")
+
+st.title("Trợ lý thực đơn thông minh")
+st.markdown("Chọn tiêu chí bên dưới để gợi ý món ăn:")
 
 goal = st.selectbox("Mục tiêu", ["giảm cân", "giữ cân", "tăng cân"])
-mood = st.selectbox("Tâm trạng", ["vui", "bình thường", "buồn"])
+mood = st.selectbox("Tâm trạng", ["vui", "bình thường", "buồn", "mệt mỏi"])
 meal_time = st.selectbox("Bữa ăn", ["sáng", "trưa", "tối"])
 
 if st.button("Gợi ý món ăn"):
-    with st.spinner("Đang tạo thực đơn..."):
+    with st.spinner("Đang tạo món ăn..."):
         meal_plan = generate_meal_plan(goal, mood, meal_time)
-        st.json(meal_plan)
+    st.markdown("### Gợi ý món ăn:")
+    st.markdown(meal_plan)
