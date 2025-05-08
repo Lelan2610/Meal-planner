@@ -7,7 +7,7 @@ openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 def generate_meal_plan(goal, mood, meal_time):
     prompt = f"""
-    Tạo 5 món ăn phù hợp với các tiêu chí sau:
+    Tạo 2 món ăn phù hợp với các tiêu chí sau:
     - Mục tiêu: {goal}
     - Tâm trạng: {mood}
     - Bữa ăn: {meal_time}
