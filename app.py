@@ -1,4 +1,8 @@
 import openai
+import streamlit as st
+
+st.title("Meal Planner")
+st.write("Chào mừng bạn đến với ứng dụng lập kế hoạch bữa ăn!")
 
 def generate_meal_plan(goal, mood, meal_time):
     prompt = f"""
